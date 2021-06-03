@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.conteudo{
+    width: 100%;
+    display: flex;    
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+   
+}
+
+
+.Michelanegocab {
+    background-color: black;
+    padding: 15px;
+    height: 12vh;
+    color:white;
+    text-align: center;
+    font-family:'Comic Sans MS, Comic Sans, cursive ' ;
+    text-transform: uppercase;
+}
+
+    .barra-lateral-esquerda, .barra-lateral-direita {
+        width: 15%;
+        display: inline-block;
+        height: 80vh;
+    }
+
+    .body{
+        background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    }
+
+    .barra-lateral-esquerda li {
+        padding: 10px;
+        margin-bottom: 9px;
+        background-color: lavender;
+        color:black;
+        box-shadow: 0 5px 10px black ;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-transform: uppercase;
+    }
+
+    .barra-lateral-esquerda li {
+        color: #000;
+        text-decoration: none;
+        width: 100%;
+        display: block;
+    }
+
+    .barra-lateral-esquerda li:hover {
+        background-color: orange;
+    }
+
+    .barra-lateral-direita h2 {
+        color: Black;
+        margin: 10px 0;
+        text-transform: uppercase;
+ 
+    }
+
+  
+          
+    
+        
+
+
+.foto { 
+    display:block;
+    margin: 25px auto;
+    max-width: 25%;}
+
+    .artigo {
+        width: 70%;
+        padding:1%;
+        display: inline-block;
+    }
+
+    .rodape {
+        background: black;
+        padding: 1%;
+        color:white;
+    }
+
+    @media screen and (max-width: 768px) {
+        .barra-lateral-esquerda, .barra-lateral-direita {
+            width: 100%;
+            height: 100%;
+            padding:2%;
+        }
+    
+        .artigo{
+            padding:2%;
+            width:100%;
+            display: inline-block;
+        }
+    
+        .rodape {
+            padding:5%;
+        }    
+    }
+
+   
